@@ -1,0 +1,2672 @@
+{
+  "generatedFrom": "AutoEq (MIT) https://github.com/jaakkopasanen/AutoEq",
+  "profiles": [
+    {
+      "id": "measured:apple-airpods-max",
+      "brand": "Apple",
+      "model": "AirPods Max",
+      "category": "headphones",
+      "channels": "2.0",
+      "verification": "measured",
+      "source": "oratory1990 via AutoEq",
+      "sourceUrl": "https://github.com/jaakkopasanen/AutoEq/tree/master/results/oratory1990/over-ear/Apple%20AirPods%20Max",
+      "match": [
+        "airpods max"
+      ],
+      "preampDb": -4.7,
+      "filters": [
+        {
+          "type": 1,
+          "freq": 105,
+          "gainDb": -3,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 7273,
+          "gainDb": 3.6,
+          "q": 2.41
+        },
+        {
+          "type": 0,
+          "freq": 218,
+          "gainDb": -2.9,
+          "q": 1.41
+        },
+        {
+          "type": 0,
+          "freq": 1031,
+          "gainDb": -3.2,
+          "q": 0.99
+        },
+        {
+          "type": 0,
+          "freq": 3185,
+          "gainDb": 3.1,
+          "q": 0.56
+        },
+        {
+          "type": 2,
+          "freq": 10000,
+          "gainDb": -5.5,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 9508,
+          "gainDb": 2.7,
+          "q": 2.2
+        },
+        {
+          "type": 0,
+          "freq": 66,
+          "gainDb": 0.6,
+          "q": 1.65
+        },
+        {
+          "type": 0,
+          "freq": 4045,
+          "gainDb": 2.1,
+          "q": 5.82
+        },
+        {
+          "type": 0,
+          "freq": 4834,
+          "gainDb": -1.8,
+          "q": 6
+        }
+      ]
+    },
+    {
+      "id": "measured:apple-airpods-pro",
+      "brand": "Apple",
+      "model": "AirPods Pro",
+      "category": "earbuds",
+      "channels": "2.0",
+      "verification": "measured",
+      "source": "Rtings on HMS II.3 via AutoEq",
+      "sourceUrl": "https://github.com/jaakkopasanen/AutoEq/tree/master/results/Rtings/HMS%20II.3%20in-ear/Apple%20AirPods%20Pro",
+      "match": [
+        "airpods pro(?! ?2)"
+      ],
+      "preampDb": -3.2,
+      "filters": [
+        {
+          "type": 1,
+          "freq": 105,
+          "gainDb": 3.2,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 436,
+          "gainDb": -2.6,
+          "q": 0.9
+        },
+        {
+          "type": 0,
+          "freq": 4595,
+          "gainDb": 2.6,
+          "q": 2.54
+        },
+        {
+          "type": 0,
+          "freq": 918,
+          "gainDb": 2.4,
+          "q": 2.14
+        },
+        {
+          "type": 0,
+          "freq": 142,
+          "gainDb": 0.7,
+          "q": 1.41
+        },
+        {
+          "type": 2,
+          "freq": 10000,
+          "gainDb": -7,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 48,
+          "gainDb": -0.4,
+          "q": 1.62
+        },
+        {
+          "type": 0,
+          "freq": 2445,
+          "gainDb": 0.8,
+          "q": 2.39
+        },
+        {
+          "type": 0,
+          "freq": 1548,
+          "gainDb": -0.5,
+          "q": 3.19
+        },
+        {
+          "type": 0,
+          "freq": 5376,
+          "gainDb": 0.8,
+          "q": 6
+        }
+      ]
+    },
+    {
+      "id": "measured:apple-airpods-pro2",
+      "brand": "Apple",
+      "model": "AirPods Pro2",
+      "category": "earbuds",
+      "channels": "2.0",
+      "verification": "measured",
+      "source": "Rtings on Bruel & Kjaer 5128 via AutoEq",
+      "sourceUrl": "https://github.com/jaakkopasanen/AutoEq/tree/master/results/Rtings/Bruel%20&%20Kjaer%205128%20in-ear/Apple%20AirPods%20Pro2",
+      "match": [
+        "airpods pro ?2"
+      ],
+      "preampDb": -3.1,
+      "filters": [
+        {
+          "type": 1,
+          "freq": 105,
+          "gainDb": -1.5,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 377,
+          "gainDb": -2.5,
+          "q": 0.74
+        },
+        {
+          "type": 0,
+          "freq": 3442,
+          "gainDb": 3,
+          "q": 0.67
+        },
+        {
+          "type": 0,
+          "freq": 6303,
+          "gainDb": -3.4,
+          "q": 4.47
+        },
+        {
+          "type": 0,
+          "freq": 1339,
+          "gainDb": 0.5,
+          "q": 2.65
+        },
+        {
+          "type": 2,
+          "freq": 10000,
+          "gainDb": 3.1,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 82,
+          "gainDb": 1,
+          "q": 1.92
+        },
+        {
+          "type": 0,
+          "freq": 170,
+          "gainDb": -0.6,
+          "q": 1.86
+        },
+        {
+          "type": 0,
+          "freq": 8133,
+          "gainDb": -1.1,
+          "q": 2.86
+        },
+        {
+          "type": 0,
+          "freq": 311,
+          "gainDb": 0.4,
+          "q": 3.57
+        }
+      ]
+    },
+    {
+      "id": "measured:apple-airpods-2nd-generation",
+      "brand": "Apple",
+      "model": "AirPods (2nd generation)",
+      "category": "earbuds",
+      "channels": "2.0",
+      "verification": "measured",
+      "source": "Rtings on HMS II.3 via AutoEq",
+      "sourceUrl": "https://github.com/jaakkopasanen/AutoEq/tree/master/results/Rtings/HMS%20II.3%20earbud/Apple%20AirPods%20(2nd%20generation)",
+      "match": [
+        "^airpods$",
+        "airpods \\(2"
+      ],
+      "preampDb": -6.1,
+      "filters": [
+        {
+          "type": 1,
+          "freq": 105,
+          "gainDb": 5.8,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 5446,
+          "gainDb": -6.5,
+          "q": 0.18
+        },
+        {
+          "type": 0,
+          "freq": 2138,
+          "gainDb": 8.3,
+          "q": 0.3
+        },
+        {
+          "type": 0,
+          "freq": 89,
+          "gainDb": 1.5,
+          "q": 0.98
+        },
+        {
+          "type": 0,
+          "freq": 2124,
+          "gainDb": -6.3,
+          "q": 1.11
+        },
+        {
+          "type": 2,
+          "freq": 10000,
+          "gainDb": -2.5,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 4173,
+          "gainDb": 1.4,
+          "q": 2.74
+        },
+        {
+          "type": 0,
+          "freq": 5484,
+          "gainDb": -1.6,
+          "q": 6
+        },
+        {
+          "type": 0,
+          "freq": 2846,
+          "gainDb": -0.9,
+          "q": 4.81
+        },
+        {
+          "type": 0,
+          "freq": 240,
+          "gainDb": 0.2,
+          "q": 1.68
+        }
+      ]
+    },
+    {
+      "id": "measured:apple-airpods-3rd-generation",
+      "brand": "Apple",
+      "model": "AirPods (3rd generation)",
+      "category": "earbuds",
+      "channels": "2.0",
+      "verification": "measured",
+      "source": "Rtings on Bruel & Kjaer 5128 via AutoEq",
+      "sourceUrl": "https://github.com/jaakkopasanen/AutoEq/tree/master/results/Rtings/Bruel%20&%20Kjaer%205128%20earbud/Apple%20AirPods%20(3rd%20generation)",
+      "match": [
+        "airpods \\(3",
+        "airpods 3"
+      ],
+      "preampDb": -6.4,
+      "filters": [
+        {
+          "type": 1,
+          "freq": 105,
+          "gainDb": 6.9,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 1838,
+          "gainDb": -3.9,
+          "q": 2.08
+        },
+        {
+          "type": 0,
+          "freq": 3879,
+          "gainDb": 2.5,
+          "q": 2.13
+        },
+        {
+          "type": 0,
+          "freq": 64,
+          "gainDb": -5,
+          "q": 0.96
+        },
+        {
+          "type": 0,
+          "freq": 43,
+          "gainDb": 2.7,
+          "q": 3.38
+        },
+        {
+          "type": 2,
+          "freq": 10000,
+          "gainDb": 5.5,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 9961,
+          "gainDb": 2.4,
+          "q": 1.61
+        },
+        {
+          "type": 0,
+          "freq": 6052,
+          "gainDb": -2.7,
+          "q": 3.91
+        },
+        {
+          "type": 0,
+          "freq": 724,
+          "gainDb": 1.9,
+          "q": 2.8
+        },
+        {
+          "type": 0,
+          "freq": 420,
+          "gainDb": -0.6,
+          "q": 1.89
+        }
+      ]
+    },
+    {
+      "id": "measured:apple-airpods-4",
+      "brand": "Apple",
+      "model": "AirPods 4",
+      "category": "earbuds",
+      "channels": "2.0",
+      "verification": "measured",
+      "source": "Rtings on Bruel & Kjaer 5128 via AutoEq",
+      "sourceUrl": "https://github.com/jaakkopasanen/AutoEq/tree/master/results/Rtings/Bruel%20&%20Kjaer%205128%20earbud/Apple%20AirPods%204",
+      "match": [
+        "airpods 4"
+      ],
+      "preampDb": -6.4,
+      "filters": [
+        {
+          "type": 1,
+          "freq": 105,
+          "gainDb": 11.4,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 4622,
+          "gainDb": 6,
+          "q": 1.39
+        },
+        {
+          "type": 0,
+          "freq": 49,
+          "gainDb": -11.7,
+          "q": 0.39
+        },
+        {
+          "type": 0,
+          "freq": 1277,
+          "gainDb": -2.6,
+          "q": 0.86
+        },
+        {
+          "type": 0,
+          "freq": 3036,
+          "gainDb": 4.1,
+          "q": 2.43
+        },
+        {
+          "type": 2,
+          "freq": 10000,
+          "gainDb": -1.9,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 354,
+          "gainDb": -1.4,
+          "q": 1.5
+        },
+        {
+          "type": 0,
+          "freq": 176,
+          "gainDb": 1.5,
+          "q": 2.04
+        },
+        {
+          "type": 0,
+          "freq": 618,
+          "gainDb": 1,
+          "q": 2.35
+        },
+        {
+          "type": 0,
+          "freq": 106,
+          "gainDb": -0.9,
+          "q": 2.47
+        }
+      ]
+    },
+    {
+      "id": "measured:apple-earpods",
+      "brand": "Apple",
+      "model": "EarPods",
+      "category": "earbuds",
+      "channels": "2.0",
+      "verification": "measured",
+      "source": "Rtings on HMS II.3 via AutoEq",
+      "sourceUrl": "https://github.com/jaakkopasanen/AutoEq/tree/master/results/Rtings/HMS%20II.3%20earbud/Apple%20EarPods",
+      "match": [
+        "earpods"
+      ],
+      "preampDb": -6.2,
+      "filters": [
+        {
+          "type": 1,
+          "freq": 105,
+          "gainDb": 6.2,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 6106,
+          "gainDb": -6.5,
+          "q": 1.79
+        },
+        {
+          "type": 0,
+          "freq": 4238,
+          "gainDb": 5.1,
+          "q": 1.8
+        },
+        {
+          "type": 0,
+          "freq": 912,
+          "gainDb": 2.5,
+          "q": 1.87
+        },
+        {
+          "type": 0,
+          "freq": 1739,
+          "gainDb": -2.1,
+          "q": 1.73
+        },
+        {
+          "type": 2,
+          "freq": 10000,
+          "gainDb": -0.8,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 147,
+          "gainDb": -1.1,
+          "q": 1.2
+        },
+        {
+          "type": 0,
+          "freq": 78,
+          "gainDb": 1.7,
+          "q": 2.98
+        },
+        {
+          "type": 0,
+          "freq": 108,
+          "gainDb": -0.4,
+          "q": 2.22
+        },
+        {
+          "type": 0,
+          "freq": 2657,
+          "gainDb": -0.4,
+          "q": 5.13
+        }
+      ]
+    },
+    {
+      "id": "measured:beats-studio3-wireless",
+      "brand": "Beats",
+      "model": "Studio3 Wireless",
+      "category": "headphones",
+      "channels": "2.0",
+      "verification": "measured",
+      "source": "oratory1990 via AutoEq",
+      "sourceUrl": "https://github.com/jaakkopasanen/AutoEq/tree/master/results/oratory1990/over-ear/Beats%20Studio3%20Wireless",
+      "match": [
+        "beats studio ?3"
+      ],
+      "preampDb": -6.9,
+      "filters": [
+        {
+          "type": 1,
+          "freq": 105,
+          "gainDb": 7.7,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 327,
+          "gainDb": -5.9,
+          "q": 1.56
+        },
+        {
+          "type": 0,
+          "freq": 5209,
+          "gainDb": 6.7,
+          "q": 2.64
+        },
+        {
+          "type": 0,
+          "freq": 68,
+          "gainDb": -8.1,
+          "q": 0.78
+        },
+        {
+          "type": 0,
+          "freq": 1978,
+          "gainDb": 4.3,
+          "q": 2.19
+        },
+        {
+          "type": 2,
+          "freq": 10000,
+          "gainDb": -2.5,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 3257,
+          "gainDb": -1.9,
+          "q": 4.42
+        },
+        {
+          "type": 0,
+          "freq": 666,
+          "gainDb": 1.5,
+          "q": 2.52
+        },
+        {
+          "type": 0,
+          "freq": 6665,
+          "gainDb": 1.5,
+          "q": 3.92
+        },
+        {
+          "type": 0,
+          "freq": 428,
+          "gainDb": -1.1,
+          "q": 4.35
+        }
+      ]
+    },
+    {
+      "id": "measured:beats-studio-pro",
+      "brand": "Beats",
+      "model": "Studio Pro",
+      "category": "headphones",
+      "channels": "2.0",
+      "verification": "measured",
+      "source": "Rtings on Bruel & Kjaer 5128 via AutoEq",
+      "sourceUrl": "https://github.com/jaakkopasanen/AutoEq/tree/master/results/Rtings/Bruel%20&%20Kjaer%205128%20over-ear/Beats%20Studio%20Pro",
+      "match": [
+        "beats studio pro"
+      ],
+      "preampDb": -3.8,
+      "filters": [
+        {
+          "type": 1,
+          "freq": 105,
+          "gainDb": -3.1,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 8990,
+          "gainDb": -5.1,
+          "q": 2.02
+        },
+        {
+          "type": 0,
+          "freq": 304,
+          "gainDb": 3.8,
+          "q": 0.85
+        },
+        {
+          "type": 0,
+          "freq": 1720,
+          "gainDb": -3,
+          "q": 1.19
+        },
+        {
+          "type": 0,
+          "freq": 67,
+          "gainDb": 6,
+          "q": 2.55
+        },
+        {
+          "type": 2,
+          "freq": 10000,
+          "gainDb": 0.5,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 5052,
+          "gainDb": 3.7,
+          "q": 4.43
+        },
+        {
+          "type": 0,
+          "freq": 3394,
+          "gainDb": -2.5,
+          "q": 5.33
+        },
+        {
+          "type": 0,
+          "freq": 6509,
+          "gainDb": -2,
+          "q": 5.62
+        },
+        {
+          "type": 0,
+          "freq": 734,
+          "gainDb": 0.7,
+          "q": 3.38
+        }
+      ]
+    },
+    {
+      "id": "measured:beats-solo-pro",
+      "brand": "Beats",
+      "model": "Solo Pro",
+      "category": "headphones",
+      "channels": "2.0",
+      "verification": "measured",
+      "source": "oratory1990 via AutoEq",
+      "sourceUrl": "https://github.com/jaakkopasanen/AutoEq/tree/master/results/oratory1990/over-ear/Beats%20Solo%20Pro",
+      "match": [
+        "beats solo pro"
+      ],
+      "preampDb": -2.1,
+      "filters": [
+        {
+          "type": 1,
+          "freq": 105,
+          "gainDb": -2,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 332,
+          "gainDb": 1.9,
+          "q": 0.5
+        },
+        {
+          "type": 0,
+          "freq": 3735,
+          "gainDb": -4.7,
+          "q": 0.44
+        },
+        {
+          "type": 0,
+          "freq": 2106,
+          "gainDb": 5.4,
+          "q": 1.58
+        },
+        {
+          "type": 0,
+          "freq": 5816,
+          "gainDb": 5,
+          "q": 3.86
+        },
+        {
+          "type": 2,
+          "freq": 10000,
+          "gainDb": -1.5,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 58,
+          "gainDb": -0.4,
+          "q": 1.36
+        },
+        {
+          "type": 0,
+          "freq": 31,
+          "gainDb": 0.4,
+          "q": 1.68
+        },
+        {
+          "type": 0,
+          "freq": 163,
+          "gainDb": 0.7,
+          "q": 3.66
+        },
+        {
+          "type": 0,
+          "freq": 233,
+          "gainDb": -0.4,
+          "q": 2.45
+        }
+      ]
+    },
+    {
+      "id": "measured:beats-powerbeats-pro",
+      "brand": "Beats",
+      "model": "Powerbeats Pro",
+      "category": "earbuds",
+      "channels": "2.0",
+      "verification": "measured",
+      "source": "oratory1990 via AutoEq",
+      "sourceUrl": "https://github.com/jaakkopasanen/AutoEq/tree/master/results/oratory1990/in-ear/Beats%20Powerbeats%20Pro",
+      "match": [
+        "powerbeats pro"
+      ],
+      "preampDb": -6.4,
+      "filters": [
+        {
+          "type": 1,
+          "freq": 105,
+          "gainDb": -0.8,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 6596,
+          "gainDb": 6.1,
+          "q": 2.51
+        },
+        {
+          "type": 0,
+          "freq": 2703,
+          "gainDb": -4.4,
+          "q": 2.8
+        },
+        {
+          "type": 0,
+          "freq": 1362,
+          "gainDb": -2.1,
+          "q": 1.94
+        },
+        {
+          "type": 0,
+          "freq": 3607,
+          "gainDb": 3.7,
+          "q": 4.72
+        },
+        {
+          "type": 2,
+          "freq": 10000,
+          "gainDb": 3.7,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 143,
+          "gainDb": -1.2,
+          "q": 1.56
+        },
+        {
+          "type": 0,
+          "freq": 374,
+          "gainDb": 0.7,
+          "q": 1.21
+        },
+        {
+          "type": 0,
+          "freq": 4688,
+          "gainDb": -2.2,
+          "q": 6
+        },
+        {
+          "type": 0,
+          "freq": 60,
+          "gainDb": 0.4,
+          "q": 1.34
+        }
+      ]
+    },
+    {
+      "id": "measured:beats-studio-buds",
+      "brand": "Beats",
+      "model": "Studio Buds",
+      "category": "earbuds",
+      "channels": "2.0",
+      "verification": "measured",
+      "source": "oratory1990 via AutoEq",
+      "sourceUrl": "https://github.com/jaakkopasanen/AutoEq/tree/master/results/oratory1990/in-ear/Beats%20Studio%20Buds",
+      "match": [
+        "studio buds(?! ?\\+)"
+      ],
+      "preampDb": -4.3,
+      "filters": [
+        {
+          "type": 1,
+          "freq": 105,
+          "gainDb": -2.2,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 1819,
+          "gainDb": -4.7,
+          "q": 0.74
+        },
+        {
+          "type": 0,
+          "freq": 145,
+          "gainDb": 3.3,
+          "q": 0.23
+        },
+        {
+          "type": 0,
+          "freq": 6271,
+          "gainDb": 4.8,
+          "q": 1.67
+        },
+        {
+          "type": 0,
+          "freq": 568,
+          "gainDb": -2.4,
+          "q": 1.88
+        },
+        {
+          "type": 2,
+          "freq": 10000,
+          "gainDb": 0.3,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 3619,
+          "gainDb": 2.3,
+          "q": 4.81
+        },
+        {
+          "type": 0,
+          "freq": 2771,
+          "gainDb": -1.7,
+          "q": 3.92
+        },
+        {
+          "type": 0,
+          "freq": 68,
+          "gainDb": 0.8,
+          "q": 1.75
+        },
+        {
+          "type": 0,
+          "freq": 127,
+          "gainDb": -0.8,
+          "q": 1.91
+        }
+      ]
+    },
+    {
+      "id": "measured:bose-quietcomfort-35-ii",
+      "brand": "Bose",
+      "model": "QuietComfort 35 II",
+      "category": "headphones",
+      "channels": "2.0",
+      "verification": "measured",
+      "source": "Rtings on HMS II.3 via AutoEq",
+      "sourceUrl": "https://github.com/jaakkopasanen/AutoEq/tree/master/results/Rtings/HMS%20II.3%20over-ear/Bose%20QuietComfort%2035%20II",
+      "match": [
+        "qc ?35",
+        "quietcomfort 35"
+      ],
+      "preampDb": -1.9,
+      "filters": [
+        {
+          "type": 1,
+          "freq": 105,
+          "gainDb": -0.9,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 1703,
+          "gainDb": 2.4,
+          "q": 0.33
+        },
+        {
+          "type": 0,
+          "freq": 2267,
+          "gainDb": -4.6,
+          "q": 1.92
+        },
+        {
+          "type": 0,
+          "freq": 188,
+          "gainDb": -1.7,
+          "q": 1.06
+        },
+        {
+          "type": 0,
+          "freq": 6301,
+          "gainDb": -6.4,
+          "q": 6
+        },
+        {
+          "type": 2,
+          "freq": 10000,
+          "gainDb": -1.8,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 3933,
+          "gainDb": -2,
+          "q": 6
+        },
+        {
+          "type": 0,
+          "freq": 5005,
+          "gainDb": 1.6,
+          "q": 5.99
+        },
+        {
+          "type": 0,
+          "freq": 1403,
+          "gainDb": 0.5,
+          "q": 3.32
+        },
+        {
+          "type": 0,
+          "freq": 8307,
+          "gainDb": 1.3,
+          "q": 5.99
+        }
+      ]
+    },
+    {
+      "id": "measured:bose-quietcomfort-45",
+      "brand": "Bose",
+      "model": "QuietComfort 45",
+      "category": "headphones",
+      "channels": "2.0",
+      "verification": "measured",
+      "source": "oratory1990 via AutoEq",
+      "sourceUrl": "https://github.com/jaakkopasanen/AutoEq/tree/master/results/oratory1990/over-ear/Bose%20QuietComfort%2045",
+      "match": [
+        "qc ?45",
+        "quietcomfort 45"
+      ],
+      "preampDb": -2.2,
+      "filters": [
+        {
+          "type": 1,
+          "freq": 105,
+          "gainDb": -1.4,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 161,
+          "gainDb": -2.2,
+          "q": 1.15
+        },
+        {
+          "type": 0,
+          "freq": 5490,
+          "gainDb": -7.7,
+          "q": 2.06
+        },
+        {
+          "type": 0,
+          "freq": 4242,
+          "gainDb": 3.5,
+          "q": 0.24
+        },
+        {
+          "type": 0,
+          "freq": 2328,
+          "gainDb": -5.2,
+          "q": 2.15
+        },
+        {
+          "type": 2,
+          "freq": 10000,
+          "gainDb": -7,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 8352,
+          "gainDb": 2.9,
+          "q": 1.93
+        },
+        {
+          "type": 0,
+          "freq": 390,
+          "gainDb": 0.5,
+          "q": 2.32
+        },
+        {
+          "type": 0,
+          "freq": 6508,
+          "gainDb": -1,
+          "q": 5.04
+        },
+        {
+          "type": 0,
+          "freq": 70,
+          "gainDb": -0.1,
+          "q": 1.97
+        }
+      ]
+    },
+    {
+      "id": "measured:bose-quietcomfort-ultra-headphones",
+      "brand": "Bose",
+      "model": "QuietComfort Ultra Headphones",
+      "category": "headphones",
+      "channels": "2.0",
+      "verification": "measured",
+      "source": "Rtings on Bruel & Kjaer 5128 via AutoEq",
+      "sourceUrl": "https://github.com/jaakkopasanen/AutoEq/tree/master/results/Rtings/Bruel%20&%20Kjaer%205128%20over-ear/Bose%20QuietComfort%20Ultra%20Headphones",
+      "match": [
+        "qc ultra headphones",
+        "quietcomfort ultra headphones"
+      ],
+      "preampDb": -2.8,
+      "filters": [
+        {
+          "type": 1,
+          "freq": 105,
+          "gainDb": -3,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 5032,
+          "gainDb": 2.8,
+          "q": 3.69
+        },
+        {
+          "type": 0,
+          "freq": 156,
+          "gainDb": 1.5,
+          "q": 1.61
+        },
+        {
+          "type": 0,
+          "freq": 94,
+          "gainDb": -2.4,
+          "q": 2.32
+        },
+        {
+          "type": 0,
+          "freq": 2373,
+          "gainDb": -2.8,
+          "q": 5.58
+        },
+        {
+          "type": 2,
+          "freq": 10000,
+          "gainDb": 2.7,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 1633,
+          "gainDb": 2.6,
+          "q": 3.51
+        },
+        {
+          "type": 0,
+          "freq": 491,
+          "gainDb": -1.1,
+          "q": 2.5
+        },
+        {
+          "type": 0,
+          "freq": 2194,
+          "gainDb": -1,
+          "q": 3.76
+        },
+        {
+          "type": 0,
+          "freq": 36,
+          "gainDb": -0.5,
+          "q": 2.83
+        }
+      ]
+    },
+    {
+      "id": "measured:bose-noise-cancelling-headphones-700",
+      "brand": "Bose",
+      "model": "Noise Cancelling Headphones 700",
+      "category": "headphones",
+      "channels": "2.0",
+      "verification": "measured",
+      "source": "oratory1990 via AutoEq",
+      "sourceUrl": "https://github.com/jaakkopasanen/AutoEq/tree/master/results/oratory1990/over-ear/Bose%20Noise%20Cancelling%20Headphones%20700",
+      "match": [
+        "bose 700",
+        "headphones 700"
+      ],
+      "preampDb": -7,
+      "filters": [
+        {
+          "type": 1,
+          "freq": 105,
+          "gainDb": -2.5,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 180,
+          "gainDb": -3.8,
+          "q": 0.99
+        },
+        {
+          "type": 0,
+          "freq": 1236,
+          "gainDb": 2.7,
+          "q": 4.06
+        },
+        {
+          "type": 0,
+          "freq": 27,
+          "gainDb": 3.7,
+          "q": 0.98
+        },
+        {
+          "type": 0,
+          "freq": 8335,
+          "gainDb": 6.8,
+          "q": 1.58
+        },
+        {
+          "type": 2,
+          "freq": 10000,
+          "gainDb": 0.3,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 4828,
+          "gainDb": -4.2,
+          "q": 5.68
+        },
+        {
+          "type": 0,
+          "freq": 3430,
+          "gainDb": 1.4,
+          "q": 2.66
+        },
+        {
+          "type": 0,
+          "freq": 6625,
+          "gainDb": 1.8,
+          "q": 6
+        },
+        {
+          "type": 0,
+          "freq": 816,
+          "gainDb": -0.7,
+          "q": 2.91
+        }
+      ]
+    },
+    {
+      "id": "measured:bose-quietcomfort-earbuds-ii",
+      "brand": "Bose",
+      "model": "QuietComfort Earbuds II",
+      "category": "earbuds",
+      "channels": "2.0",
+      "verification": "measured",
+      "source": "Rtings on Bruel & Kjaer 5128 via AutoEq",
+      "sourceUrl": "https://github.com/jaakkopasanen/AutoEq/tree/master/results/Rtings/Bruel%20&%20Kjaer%205128%20in-ear/Bose%20QuietComfort%20Earbuds%20II",
+      "match": [
+        "qc earbuds ii",
+        "quietcomfort earbuds ii"
+      ],
+      "preampDb": -4.2,
+      "filters": [
+        {
+          "type": 1,
+          "freq": 105,
+          "gainDb": -3.6,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 4510,
+          "gainDb": -4.2,
+          "q": 1.69
+        },
+        {
+          "type": 0,
+          "freq": 1247,
+          "gainDb": 3,
+          "q": 1.49
+        },
+        {
+          "type": 0,
+          "freq": 2336,
+          "gainDb": -3.3,
+          "q": 2.57
+        },
+        {
+          "type": 0,
+          "freq": 455,
+          "gainDb": 1.8,
+          "q": 1.33
+        },
+        {
+          "type": 2,
+          "freq": 10000,
+          "gainDb": 4.2,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 76,
+          "gainDb": 1.4,
+          "q": 0.73
+        },
+        {
+          "type": 0,
+          "freq": 24,
+          "gainDb": -2,
+          "q": 2.9
+        },
+        {
+          "type": 0,
+          "freq": 33,
+          "gainDb": -0.9,
+          "q": 2.19
+        },
+        {
+          "type": 0,
+          "freq": 186,
+          "gainDb": -1,
+          "q": 4.12
+        }
+      ]
+    },
+    {
+      "id": "measured:jbl-tune-760nc",
+      "brand": "JBL",
+      "model": "Tune 760NC",
+      "category": "headphones",
+      "channels": "2.0",
+      "verification": "measured",
+      "source": "Rtings on Bruel & Kjaer 5128 via AutoEq",
+      "sourceUrl": "https://github.com/jaakkopasanen/AutoEq/tree/master/results/Rtings/Bruel%20&%20Kjaer%205128%20over-ear/JBL%20Tune%20760NC",
+      "match": [
+        "tune 760"
+      ],
+      "preampDb": -3.9,
+      "filters": [
+        {
+          "type": 1,
+          "freq": 105,
+          "gainDb": -4.5,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 1609,
+          "gainDb": 4,
+          "q": 1.67
+        },
+        {
+          "type": 0,
+          "freq": 2953,
+          "gainDb": -4.7,
+          "q": 4.02
+        },
+        {
+          "type": 0,
+          "freq": 716,
+          "gainDb": 3.3,
+          "q": 3.98
+        },
+        {
+          "type": 0,
+          "freq": 6417,
+          "gainDb": -4.1,
+          "q": 4.96
+        },
+        {
+          "type": 2,
+          "freq": 10000,
+          "gainDb": -1.5,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 273,
+          "gainDb": -1.5,
+          "q": 2.21
+        },
+        {
+          "type": 0,
+          "freq": 4607,
+          "gainDb": 3.2,
+          "q": 5.05
+        },
+        {
+          "type": 0,
+          "freq": 9429,
+          "gainDb": -1,
+          "q": 2.03
+        },
+        {
+          "type": 0,
+          "freq": 73,
+          "gainDb": 0.5,
+          "q": 2.48
+        }
+      ]
+    },
+    {
+      "id": "measured:jbl-live-660nc",
+      "brand": "JBL",
+      "model": "Live 660NC",
+      "category": "headphones",
+      "channels": "2.0",
+      "verification": "measured",
+      "source": "Rtings on HMS II.3 via AutoEq",
+      "sourceUrl": "https://github.com/jaakkopasanen/AutoEq/tree/master/results/Rtings/HMS%20II.3%20over-ear/JBL%20Live%20660NC",
+      "match": [
+        "live 660"
+      ],
+      "preampDb": -3.1,
+      "filters": [
+        {
+          "type": 1,
+          "freq": 105,
+          "gainDb": -0.8,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 62,
+          "gainDb": -3.6,
+          "q": 1.03
+        },
+        {
+          "type": 0,
+          "freq": 167,
+          "gainDb": 3.7,
+          "q": 3.08
+        },
+        {
+          "type": 0,
+          "freq": 6729,
+          "gainDb": -6.6,
+          "q": 4.38
+        },
+        {
+          "type": 0,
+          "freq": 2391,
+          "gainDb": 0.9,
+          "q": 1.87
+        },
+        {
+          "type": 2,
+          "freq": 10000,
+          "gainDb": -5.2,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 4403,
+          "gainDb": 2.6,
+          "q": 2.05
+        },
+        {
+          "type": 0,
+          "freq": 3508,
+          "gainDb": -3.4,
+          "q": 6
+        },
+        {
+          "type": 0,
+          "freq": 951,
+          "gainDb": -1.4,
+          "q": 4.24
+        },
+        {
+          "type": 0,
+          "freq": 727,
+          "gainDb": 0.8,
+          "q": 3.59
+        }
+      ]
+    },
+    {
+      "id": "measured:jbl-tour-one",
+      "brand": "JBL",
+      "model": "Tour One",
+      "category": "headphones",
+      "channels": "2.0",
+      "verification": "measured",
+      "source": "Rtings on HMS II.3 via AutoEq",
+      "sourceUrl": "https://github.com/jaakkopasanen/AutoEq/tree/master/results/Rtings/HMS%20II.3%20over-ear/JBL%20Tour%20One",
+      "match": [
+        "tour one(?! m2)"
+      ],
+      "preampDb": -6,
+      "filters": [
+        {
+          "type": 1,
+          "freq": 105,
+          "gainDb": 0.1,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 176,
+          "gainDb": -2.8,
+          "q": 0.57
+        },
+        {
+          "type": 0,
+          "freq": 4129,
+          "gainDb": 7,
+          "q": 2.76
+        },
+        {
+          "type": 0,
+          "freq": 1087,
+          "gainDb": 2.6,
+          "q": 0.6
+        },
+        {
+          "type": 0,
+          "freq": 7123,
+          "gainDb": -4.7,
+          "q": 1.26
+        },
+        {
+          "type": 2,
+          "freq": 10000,
+          "gainDb": -2.1,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 42,
+          "gainDb": 1,
+          "q": 2.84
+        },
+        {
+          "type": 0,
+          "freq": 2729,
+          "gainDb": -1,
+          "q": 3.69
+        },
+        {
+          "type": 0,
+          "freq": 1525,
+          "gainDb": 0.9,
+          "q": 2.42
+        },
+        {
+          "type": 0,
+          "freq": 1032,
+          "gainDb": -0.8,
+          "q": 3.61
+        }
+      ]
+    },
+    {
+      "id": "measured:jbl-tune-510bt",
+      "brand": "JBL",
+      "model": "Tune 510BT",
+      "category": "headphones",
+      "channels": "2.0",
+      "verification": "measured",
+      "source": "Rtings on HMS II.3 via AutoEq",
+      "sourceUrl": "https://github.com/jaakkopasanen/AutoEq/tree/master/results/Rtings/HMS%20II.3%20over-ear/JBL%20Tune%20510BT",
+      "match": [
+        "tune 510"
+      ],
+      "preampDb": -4.6,
+      "filters": [
+        {
+          "type": 1,
+          "freq": 105,
+          "gainDb": 7.9,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 53,
+          "gainDb": -12.2,
+          "q": 0.69
+        },
+        {
+          "type": 0,
+          "freq": 1873,
+          "gainDb": 3.3,
+          "q": 0.3
+        },
+        {
+          "type": 0,
+          "freq": 6973,
+          "gainDb": -5.3,
+          "q": 2.35
+        },
+        {
+          "type": 0,
+          "freq": 3979,
+          "gainDb": -4.3,
+          "q": 1.79
+        },
+        {
+          "type": 2,
+          "freq": 10000,
+          "gainDb": -3.7,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 402,
+          "gainDb": -1.2,
+          "q": 0.27
+        },
+        {
+          "type": 0,
+          "freq": 1875,
+          "gainDb": 2.3,
+          "q": 3.7
+        },
+        {
+          "type": 0,
+          "freq": 429,
+          "gainDb": 4.3,
+          "q": 4.17
+        },
+        {
+          "type": 0,
+          "freq": 153,
+          "gainDb": 3,
+          "q": 3.92
+        }
+      ]
+    },
+    {
+      "id": "measured:samsung-galaxy-buds-pro",
+      "brand": "Samsung",
+      "model": "Galaxy Buds Pro",
+      "category": "earbuds",
+      "channels": "2.0",
+      "verification": "measured",
+      "source": "oratory1990 via AutoEq",
+      "sourceUrl": "https://github.com/jaakkopasanen/AutoEq/tree/master/results/oratory1990/in-ear/Samsung%20Galaxy%20Buds%20Pro",
+      "match": [
+        "buds pro(?! ?2)"
+      ],
+      "preampDb": -2.9,
+      "filters": [
+        {
+          "type": 1,
+          "freq": 105,
+          "gainDb": 0.4,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 1366,
+          "gainDb": 2.8,
+          "q": 0.97
+        },
+        {
+          "type": 0,
+          "freq": 171,
+          "gainDb": -2.9,
+          "q": 0.65
+        },
+        {
+          "type": 0,
+          "freq": 783,
+          "gainDb": 1.1,
+          "q": 2.15
+        },
+        {
+          "type": 0,
+          "freq": 3330,
+          "gainDb": 0.8,
+          "q": 3.58
+        },
+        {
+          "type": 2,
+          "freq": 10000,
+          "gainDb": -5.5,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 10000,
+          "gainDb": -0.1,
+          "q": 4.71
+        },
+        {
+          "type": 0,
+          "freq": 8082,
+          "gainDb": -0.6,
+          "q": 3.41
+        },
+        {
+          "type": 0,
+          "freq": 5048,
+          "gainDb": -0.5,
+          "q": 5.12
+        },
+        {
+          "type": 0,
+          "freq": 38,
+          "gainDb": -0.1,
+          "q": 2.07
+        }
+      ]
+    },
+    {
+      "id": "measured:samsung-galaxy-buds2-pro",
+      "brand": "Samsung",
+      "model": "Galaxy Buds2 Pro",
+      "category": "earbuds",
+      "channels": "2.0",
+      "verification": "measured",
+      "source": "oratory1990 via AutoEq",
+      "sourceUrl": "https://github.com/jaakkopasanen/AutoEq/tree/master/results/oratory1990/in-ear/Samsung%20Galaxy%20Buds2%20Pro",
+      "match": [
+        "buds ?2 pro"
+      ],
+      "preampDb": -2.3,
+      "filters": [
+        {
+          "type": 1,
+          "freq": 105,
+          "gainDb": -2.3,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 7526,
+          "gainDb": 2.2,
+          "q": 2.78
+        },
+        {
+          "type": 0,
+          "freq": 266,
+          "gainDb": -0.8,
+          "q": 1.35
+        },
+        {
+          "type": 0,
+          "freq": 3426,
+          "gainDb": -2.3,
+          "q": 3.7
+        },
+        {
+          "type": 0,
+          "freq": 64,
+          "gainDb": 2.2,
+          "q": 1.18
+        },
+        {
+          "type": 2,
+          "freq": 10000,
+          "gainDb": -3.8,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 8817,
+          "gainDb": 1.6,
+          "q": 2.28
+        },
+        {
+          "type": 0,
+          "freq": 2283,
+          "gainDb": 1.2,
+          "q": 3.75
+        },
+        {
+          "type": 0,
+          "freq": 4955,
+          "gainDb": -1.2,
+          "q": 5.11
+        },
+        {
+          "type": 0,
+          "freq": 977,
+          "gainDb": 1,
+          "q": 5.18
+        }
+      ]
+    },
+    {
+      "id": "measured:samsung-galaxy-buds-live",
+      "brand": "Samsung",
+      "model": "Galaxy Buds Live",
+      "category": "earbuds",
+      "channels": "2.0",
+      "verification": "measured",
+      "source": "Rtings on HMS II.3 via AutoEq",
+      "sourceUrl": "https://github.com/jaakkopasanen/AutoEq/tree/master/results/Rtings/HMS%20II.3%20earbud/Samsung%20Galaxy%20Buds%20Live",
+      "match": [
+        "buds live"
+      ],
+      "preampDb": -5.9,
+      "filters": [
+        {
+          "type": 1,
+          "freq": 105,
+          "gainDb": 7,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 73,
+          "gainDb": -6.3,
+          "q": 0.65
+        },
+        {
+          "type": 0,
+          "freq": 3538,
+          "gainDb": 7,
+          "q": 0.51
+        },
+        {
+          "type": 0,
+          "freq": 7616,
+          "gainDb": -6.7,
+          "q": 1.14
+        },
+        {
+          "type": 0,
+          "freq": 2888,
+          "gainDb": -8.9,
+          "q": 2.54
+        },
+        {
+          "type": 2,
+          "freq": 10000,
+          "gainDb": -1.1,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 518,
+          "gainDb": -1.9,
+          "q": 1.96
+        },
+        {
+          "type": 0,
+          "freq": 240,
+          "gainDb": 1.4,
+          "q": 1.82
+        },
+        {
+          "type": 0,
+          "freq": 1794,
+          "gainDb": 1.3,
+          "q": 3.32
+        },
+        {
+          "type": 0,
+          "freq": 124,
+          "gainDb": -0.6,
+          "q": 2.06
+        }
+      ]
+    },
+    {
+      "id": "measured:samsung-galaxy-buds2",
+      "brand": "Samsung",
+      "model": "Galaxy Buds2",
+      "category": "earbuds",
+      "channels": "2.0",
+      "verification": "measured",
+      "source": "oratory1990 via AutoEq",
+      "sourceUrl": "https://github.com/jaakkopasanen/AutoEq/tree/master/results/oratory1990/in-ear/Samsung%20Galaxy%20Buds2",
+      "match": [
+        "buds ?2(?! pro)"
+      ],
+      "preampDb": -4.6,
+      "filters": [
+        {
+          "type": 1,
+          "freq": 105,
+          "gainDb": 1.7,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 4739,
+          "gainDb": 4.8,
+          "q": 1.27
+        },
+        {
+          "type": 0,
+          "freq": 88,
+          "gainDb": -1.9,
+          "q": 0.26
+        },
+        {
+          "type": 0,
+          "freq": 6935,
+          "gainDb": -3.8,
+          "q": 4.18
+        },
+        {
+          "type": 0,
+          "freq": 827,
+          "gainDb": 0.9,
+          "q": 2.57
+        },
+        {
+          "type": 2,
+          "freq": 10000,
+          "gainDb": 3.1,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 1484,
+          "gainDb": -1,
+          "q": 2.64
+        },
+        {
+          "type": 0,
+          "freq": 7930,
+          "gainDb": -1.3,
+          "q": 5.82
+        },
+        {
+          "type": 0,
+          "freq": 1026,
+          "gainDb": 0.5,
+          "q": 4.03
+        },
+        {
+          "type": 0,
+          "freq": 41,
+          "gainDb": -0.2,
+          "q": 1.94
+        }
+      ]
+    },
+    {
+      "id": "measured:sennheiser-momentum-4-wireless",
+      "brand": "Sennheiser",
+      "model": "Momentum 4 Wireless",
+      "category": "headphones",
+      "channels": "2.0",
+      "verification": "measured",
+      "source": "oratory1990 via AutoEq",
+      "sourceUrl": "https://github.com/jaakkopasanen/AutoEq/tree/master/results/oratory1990/over-ear/Sennheiser%20Momentum%204%20Wireless",
+      "match": [
+        "momentum 4"
+      ],
+      "preampDb": -6.4,
+      "filters": [
+        {
+          "type": 1,
+          "freq": 105,
+          "gainDb": -7.4,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 195,
+          "gainDb": -3.6,
+          "q": 1.22
+        },
+        {
+          "type": 0,
+          "freq": 2393,
+          "gainDb": 6.1,
+          "q": 1.81
+        },
+        {
+          "type": 0,
+          "freq": 1726,
+          "gainDb": 1.6,
+          "q": 1.71
+        },
+        {
+          "type": 0,
+          "freq": 2893,
+          "gainDb": -3.2,
+          "q": 5.94
+        },
+        {
+          "type": 2,
+          "freq": 10000,
+          "gainDb": 0.5,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 63,
+          "gainDb": 1.7,
+          "q": 2.86
+        },
+        {
+          "type": 0,
+          "freq": 652,
+          "gainDb": 1.2,
+          "q": 2.25
+        },
+        {
+          "type": 0,
+          "freq": 952,
+          "gainDb": -1,
+          "q": 3.69
+        },
+        {
+          "type": 0,
+          "freq": 316,
+          "gainDb": -0.9,
+          "q": 3.46
+        }
+      ]
+    },
+    {
+      "id": "measured:sennheiser-hd-600",
+      "brand": "Sennheiser",
+      "model": "HD 600",
+      "category": "headphones",
+      "channels": "2.0",
+      "verification": "measured",
+      "source": "oratory1990 via AutoEq",
+      "sourceUrl": "https://github.com/jaakkopasanen/AutoEq/tree/master/results/oratory1990/over-ear/Sennheiser%20HD%20600",
+      "match": [
+        "hd ?600"
+      ],
+      "preampDb": -6.3,
+      "filters": [
+        {
+          "type": 1,
+          "freq": 105,
+          "gainDb": 6.5,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 125,
+          "gainDb": -2.7,
+          "q": 0.55
+        },
+        {
+          "type": 0,
+          "freq": 8445,
+          "gainDb": 3.3,
+          "q": 1.61
+        },
+        {
+          "type": 0,
+          "freq": 522,
+          "gainDb": 0.7,
+          "q": 1.02
+        },
+        {
+          "type": 0,
+          "freq": 1298,
+          "gainDb": -1.2,
+          "q": 2.14
+        },
+        {
+          "type": 2,
+          "freq": 10000,
+          "gainDb": -3.1,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 3158,
+          "gainDb": -1.8,
+          "q": 3.67
+        },
+        {
+          "type": 0,
+          "freq": 2166,
+          "gainDb": 0.9,
+          "q": 3.32
+        },
+        {
+          "type": 0,
+          "freq": 6639,
+          "gainDb": 2.2,
+          "q": 5.82
+        },
+        {
+          "type": 0,
+          "freq": 5433,
+          "gainDb": -1.2,
+          "q": 5.7
+        }
+      ]
+    },
+    {
+      "id": "measured:sennheiser-hd-650",
+      "brand": "Sennheiser",
+      "model": "HD 650",
+      "category": "headphones",
+      "channels": "2.0",
+      "verification": "measured",
+      "source": "oratory1990 via AutoEq",
+      "sourceUrl": "https://github.com/jaakkopasanen/AutoEq/tree/master/results/oratory1990/over-ear/Sennheiser%20HD%20650",
+      "match": [
+        "hd ?650"
+      ],
+      "preampDb": -6.1,
+      "filters": [
+        {
+          "type": 1,
+          "freq": 105,
+          "gainDb": 6.4,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 8800,
+          "gainDb": 5.1,
+          "q": 1.42
+        },
+        {
+          "type": 0,
+          "freq": 118,
+          "gainDb": -3.1,
+          "q": 0.5
+        },
+        {
+          "type": 0,
+          "freq": 37,
+          "gainDb": 0.7,
+          "q": 3.96
+        },
+        {
+          "type": 0,
+          "freq": 3169,
+          "gainDb": -1.7,
+          "q": 3.89
+        },
+        {
+          "type": 2,
+          "freq": 10000,
+          "gainDb": -2.1,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 1227,
+          "gainDb": -1.2,
+          "q": 2.53
+        },
+        {
+          "type": 0,
+          "freq": 2055,
+          "gainDb": 1.2,
+          "q": 3.23
+        },
+        {
+          "type": 0,
+          "freq": 587,
+          "gainDb": 0.4,
+          "q": 1.19
+        },
+        {
+          "type": 0,
+          "freq": 5332,
+          "gainDb": -1.1,
+          "q": 5.75
+        }
+      ]
+    },
+    {
+      "id": "measured:sony-wh-1000xm3",
+      "brand": "Sony",
+      "model": "WH-1000XM3",
+      "category": "headphones",
+      "channels": "2.0",
+      "verification": "measured",
+      "source": "oratory1990 via AutoEq",
+      "sourceUrl": "https://github.com/jaakkopasanen/AutoEq/tree/master/results/oratory1990/over-ear/Sony%20WH-1000XM3",
+      "match": [
+        "wh-1000xm3"
+      ],
+      "preampDb": -5.3,
+      "filters": [
+        {
+          "type": 1,
+          "freq": 105,
+          "gainDb": -4.1,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 143,
+          "gainDb": -5.9,
+          "q": 1.02
+        },
+        {
+          "type": 0,
+          "freq": 1411,
+          "gainDb": 6.2,
+          "q": 1.1
+        },
+        {
+          "type": 0,
+          "freq": 697,
+          "gainDb": -2.8,
+          "q": 0.92
+        },
+        {
+          "type": 0,
+          "freq": 4315,
+          "gainDb": 4.4,
+          "q": 1.98
+        },
+        {
+          "type": 2,
+          "freq": 10000,
+          "gainDb": 1.4,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 9032,
+          "gainDb": -1.5,
+          "q": 2
+        },
+        {
+          "type": 0,
+          "freq": 6657,
+          "gainDb": 2.1,
+          "q": 6
+        },
+        {
+          "type": 0,
+          "freq": 5637,
+          "gainDb": -1.2,
+          "q": 5.83
+        },
+        {
+          "type": 0,
+          "freq": 55,
+          "gainDb": 0.3,
+          "q": 2.24
+        }
+      ]
+    },
+    {
+      "id": "measured:sony-wh-1000xm4",
+      "brand": "Sony",
+      "model": "WH-1000XM4",
+      "category": "headphones",
+      "channels": "2.0",
+      "verification": "measured",
+      "source": "oratory1990 via AutoEq",
+      "sourceUrl": "https://github.com/jaakkopasanen/AutoEq/tree/master/results/oratory1990/over-ear/Sony%20WH-1000XM4",
+      "match": [
+        "wh-1000xm4"
+      ],
+      "preampDb": -6.1,
+      "filters": [
+        {
+          "type": 1,
+          "freq": 105,
+          "gainDb": -4.2,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 143,
+          "gainDb": -5.2,
+          "q": 1.1
+        },
+        {
+          "type": 0,
+          "freq": 2289,
+          "gainDb": 6.1,
+          "q": 1.57
+        },
+        {
+          "type": 0,
+          "freq": 56,
+          "gainDb": 1.2,
+          "q": 1.19
+        },
+        {
+          "type": 0,
+          "freq": 5144,
+          "gainDb": -3.2,
+          "q": 6
+        },
+        {
+          "type": 2,
+          "freq": 10000,
+          "gainDb": -1,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 407,
+          "gainDb": 1.7,
+          "q": 3.14
+        },
+        {
+          "type": 0,
+          "freq": 6715,
+          "gainDb": 3,
+          "q": 5.99
+        },
+        {
+          "type": 0,
+          "freq": 1007,
+          "gainDb": 1,
+          "q": 3.41
+        },
+        {
+          "type": 0,
+          "freq": 576,
+          "gainDb": -1.2,
+          "q": 3.55
+        }
+      ]
+    },
+    {
+      "id": "measured:sony-wh-1000xm5",
+      "brand": "Sony",
+      "model": "WH-1000XM5",
+      "category": "headphones",
+      "channels": "2.0",
+      "verification": "measured",
+      "source": "oratory1990 via AutoEq",
+      "sourceUrl": "https://github.com/jaakkopasanen/AutoEq/tree/master/results/oratory1990/over-ear/Sony%20WH-1000XM5",
+      "match": [
+        "wh-1000xm5"
+      ],
+      "preampDb": -6.2,
+      "filters": [
+        {
+          "type": 1,
+          "freq": 105,
+          "gainDb": -3.2,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 2448,
+          "gainDb": 6.9,
+          "q": 2.46
+        },
+        {
+          "type": 0,
+          "freq": 173,
+          "gainDb": -5.6,
+          "q": 0.96
+        },
+        {
+          "type": 0,
+          "freq": 3028,
+          "gainDb": -5.4,
+          "q": 2.03
+        },
+        {
+          "type": 0,
+          "freq": 1327,
+          "gainDb": 3.3,
+          "q": 0.58
+        },
+        {
+          "type": 2,
+          "freq": 10000,
+          "gainDb": 4.9,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 6110,
+          "gainDb": -2.3,
+          "q": 5.81
+        },
+        {
+          "type": 0,
+          "freq": 875,
+          "gainDb": -1.2,
+          "q": 4.07
+        },
+        {
+          "type": 0,
+          "freq": 1197,
+          "gainDb": 1,
+          "q": 3.28
+        },
+        {
+          "type": 0,
+          "freq": 63,
+          "gainDb": 0.4,
+          "q": 2.13
+        }
+      ]
+    },
+    {
+      "id": "measured:sony-wf-1000xm4",
+      "brand": "Sony",
+      "model": "WF-1000XM4",
+      "category": "earbuds",
+      "channels": "2.0",
+      "verification": "measured",
+      "source": "oratory1990 via AutoEq",
+      "sourceUrl": "https://github.com/jaakkopasanen/AutoEq/tree/master/results/oratory1990/in-ear/Sony%20WF-1000XM4",
+      "match": [
+        "wf-1000xm4"
+      ],
+      "preampDb": -7.5,
+      "filters": [
+        {
+          "type": 1,
+          "freq": 105,
+          "gainDb": -0.6,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 176,
+          "gainDb": -4.2,
+          "q": 0.6
+        },
+        {
+          "type": 0,
+          "freq": 9973,
+          "gainDb": 3.7,
+          "q": 1.01
+        },
+        {
+          "type": 0,
+          "freq": 6316,
+          "gainDb": 4.4,
+          "q": 0.91
+        },
+        {
+          "type": 0,
+          "freq": 498,
+          "gainDb": -1.4,
+          "q": 1.46
+        },
+        {
+          "type": 2,
+          "freq": 10000,
+          "gainDb": 3.7,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 1732,
+          "gainDb": 1.2,
+          "q": 2.28
+        },
+        {
+          "type": 0,
+          "freq": 3942,
+          "gainDb": -0.8,
+          "q": 3.1
+        },
+        {
+          "type": 0,
+          "freq": 978,
+          "gainDb": -0.3,
+          "q": 1.49
+        },
+        {
+          "type": 0,
+          "freq": 38,
+          "gainDb": -0.2,
+          "q": 2.02
+        }
+      ]
+    },
+    {
+      "id": "measured:sony-wf-1000xm5",
+      "brand": "Sony",
+      "model": "WF-1000XM5",
+      "category": "earbuds",
+      "channels": "2.0",
+      "verification": "measured",
+      "source": "oratory1990 via AutoEq",
+      "sourceUrl": "https://github.com/jaakkopasanen/AutoEq/tree/master/results/oratory1990/in-ear/Sony%20WF-1000XM5",
+      "match": [
+        "wf-1000xm5"
+      ],
+      "preampDb": -2.6,
+      "filters": [
+        {
+          "type": 1,
+          "freq": 105,
+          "gainDb": 5.4,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 68,
+          "gainDb": -4.8,
+          "q": 0.27
+        },
+        {
+          "type": 0,
+          "freq": 1377,
+          "gainDb": 2.6,
+          "q": 0.31
+        },
+        {
+          "type": 0,
+          "freq": 1806,
+          "gainDb": -3.5,
+          "q": 1.16
+        },
+        {
+          "type": 0,
+          "freq": 6875,
+          "gainDb": 1.8,
+          "q": 3.49
+        },
+        {
+          "type": 2,
+          "freq": 10000,
+          "gainDb": 2.3,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 3757,
+          "gainDb": 0.3,
+          "q": 2.56
+        },
+        {
+          "type": 0,
+          "freq": 5057,
+          "gainDb": -0.7,
+          "q": 5.7
+        },
+        {
+          "type": 0,
+          "freq": 449,
+          "gainDb": 0.3,
+          "q": 4.15
+        },
+        {
+          "type": 0,
+          "freq": 677,
+          "gainDb": -0.2,
+          "q": 2.75
+        }
+      ]
+    },
+    {
+      "id": "measured:sony-wh-ch720n",
+      "brand": "Sony",
+      "model": "WH-CH720N",
+      "category": "headphones",
+      "channels": "2.0",
+      "verification": "measured",
+      "source": "Rtings on Bruel & Kjaer 5128 via AutoEq",
+      "sourceUrl": "https://github.com/jaakkopasanen/AutoEq/tree/master/results/Rtings/Bruel%20&%20Kjaer%205128%20over-ear/Sony%20WH-CH720N",
+      "match": [
+        "wh-ch720"
+      ],
+      "preampDb": -8.6,
+      "filters": [
+        {
+          "type": 1,
+          "freq": 105,
+          "gainDb": -1.4,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 152,
+          "gainDb": -5.9,
+          "q": 1.16
+        },
+        {
+          "type": 0,
+          "freq": 1296,
+          "gainDb": 6.6,
+          "q": 1.16
+        },
+        {
+          "type": 0,
+          "freq": 4381,
+          "gainDb": 8.8,
+          "q": 1.34
+        },
+        {
+          "type": 0,
+          "freq": 8912,
+          "gainDb": -5.6,
+          "q": 0.18
+        },
+        {
+          "type": 2,
+          "freq": 10000,
+          "gainDb": 10.5,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 419,
+          "gainDb": 3.1,
+          "q": 2.95
+        },
+        {
+          "type": 0,
+          "freq": 10000,
+          "gainDb": -5.1,
+          "q": 1.66
+        },
+        {
+          "type": 0,
+          "freq": 299,
+          "gainDb": -1.5,
+          "q": 1.98
+        },
+        {
+          "type": 0,
+          "freq": 504,
+          "gainDb": 0.2,
+          "q": 2.46
+        }
+      ]
+    },
+    {
+      "id": "measured:sony-mdr-7506",
+      "brand": "Sony",
+      "model": "MDR-7506",
+      "category": "headphones",
+      "channels": "2.0",
+      "verification": "measured",
+      "source": "oratory1990 via AutoEq",
+      "sourceUrl": "https://github.com/jaakkopasanen/AutoEq/tree/master/results/oratory1990/over-ear/Sony%20MDR-7506",
+      "match": [
+        "mdr-7506"
+      ],
+      "preampDb": -5.8,
+      "filters": [
+        {
+          "type": 1,
+          "freq": 105,
+          "gainDb": 10.3,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 5435,
+          "gainDb": -3.8,
+          "q": 0.9
+        },
+        {
+          "type": 0,
+          "freq": 847,
+          "gainDb": 1.9,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 230,
+          "gainDb": 3.7,
+          "q": 2.08
+        },
+        {
+          "type": 0,
+          "freq": 48,
+          "gainDb": -9.5,
+          "q": 0.52
+        },
+        {
+          "type": 2,
+          "freq": 10000,
+          "gainDb": 3.8,
+          "q": 0.7
+        },
+        {
+          "type": 0,
+          "freq": 7530,
+          "gainDb": -1.4,
+          "q": 3.26
+        },
+        {
+          "type": 0,
+          "freq": 2916,
+          "gainDb": -1.9,
+          "q": 5.57
+        },
+        {
+          "type": 0,
+          "freq": 3748,
+          "gainDb": 2.6,
+          "q": 5.91
+        },
+        {
+          "type": 0,
+          "freq": 4456,
+          "gainDb": -1.6,
+          "q": 6
+        }
+      ]
+    }
+  ]
+}

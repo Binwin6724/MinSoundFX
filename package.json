@@ -1,0 +1,112 @@
+{
+  "name": "minsoundfx",
+  "productName": "MinSoundFX",
+  "version": "1.0.0",
+  "description": "System-wide audio enhancement for macOS and Windows: equalizer, virtual surround, dialogue, bass and loudness processing with a native real-time engine.",
+  "author": "Binwin Viju",
+  "license": "MIT",
+  "private": true,
+  "main": "dist/main/main.js",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build:native": "node scripts/build-native.mjs",
+    "build:main": "node scripts/build-main.mjs",
+    "build:renderer": "vite build",
+    "build": "npm run build:native && npm run build:main && npm run build:renderer",
+    "start": "npm run build && electron .",
+    "test": "npm run test:native && npm run test:js",
+    "test:native": "node scripts/test-native.mjs",
+    "test:js": "vitest run",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "dist:mac": "node scripts/build-native.mjs --arch arm64 && node scripts/build-native.mjs --arch x64 && npm run build:main && npm run build:renderer && electron-builder --mac --arm64 --publish never && electron-builder --mac --x64 --publish never",
+    "dist:win": "node scripts/build-native.mjs --arch x64 && npm run build:main && npm run build:renderer && electron-builder --win --x64 --publish never"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "electron": "^45.4.1",
+    "electron-builder": "^26.18.0",
+    "esbuild": "^0.28.0",
+    "node-addon-api": "^8.9.2",
+    "node-gyp": "^13.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "typescript": "^5.9.0",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.1"
+  },
+  "build": {
+    "appId": "com.minsoundfx.app",
+    "productName": "MinSoundFX",
+    "copyright": "Copyright © 2026 Binwin Viju",
+    "directories": {
+      "output": "release",
+      "buildResources": "build"
+    },
+    "files": [
+      "dist/**/*",
+      "!dist/**/*.map",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "native/build-out/${platform}-${arch}/minsoundfx_native.node",
+        "to": "native/minsoundfx_native.node"
+      },
+      {
+        "from": "build/tray",
+        "to": "tray"
+      }
+    ],
+    "asar": true,
+    "mac": {
+      "target": [
+        {
+          "target": "dmg",
+          "arch": [
+            "arm64",
+            "x64"
+          ]
+        }
+      ],
+      "category": "public.app-category.music",
+      "icon": "build/icon.png",
+      "minimumSystemVersion": "14.2",
+      "hardenedRuntime": true,
+      "gatekeeperAssess": false,
+      "identity": "-",
+      "entitlements": "build/entitlements.mac.plist",
+      "entitlementsInherit": "build/entitlements.mac.plist",
+      "extendInfo": {
+        "NSAudioCaptureUsageDescription": "MinSoundFX processes the audio your Mac plays so it can apply equalisation and enhancements in real time. Audio is processed in memory and never recorded or uploaded."
+      }
+    },
+    "dmg": {
+      "title": "MinSoundFX ${version}",
+      "artifactName": "MinSoundFX-${version}-mac-${arch}.${ext}"
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "build/icon.png",
+      "artifactName": "MinSoundFX-${version}-win-${arch}-setup.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "include": "build/installer.nsh",
+      "createDesktopShortcut": true,
+      "shortcutName": "MinSoundFX",
+      "uninstallDisplayName": "MinSoundFX"
+    }
+  }
+}
