@@ -602,11 +602,13 @@ TEST(performance_realtime_factor) {
 }
 
 int main(int argc, char** argv) {
+  std::setvbuf(stdout, nullptr, _IONBF, 0);  // keep output if a test crashes
   const char* filter = argc > 1 ? argv[1] : nullptr;
   int ran = 0;
   for (auto& t : registry()) {
     if (filter && std::string(t.name).find(filter) == std::string::npos) continue;
     const int before = g_failures;
+    std::printf("  ...  %s\r", t.name);
     t.fn();
     ++ran;
     std::printf("%s %s\n", g_failures == before ? "  ok  " : "  FAIL", t.name);

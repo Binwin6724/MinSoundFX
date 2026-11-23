@@ -9,7 +9,7 @@ const out = path.join(root, 'build', process.platform === 'win32' ? 'test_dsp.ex
 mkdirSync(path.dirname(out), { recursive: true });
 const srcs = [path.join(root, 'native/tests/test_dsp.cpp'), path.join(root, 'native/src/dsp/engine.cpp')];
 if (process.platform === 'win32') {
-  execFileSync('cl', ['/nologo', '/std:c++17', '/O2', '/EHsc', '/utf-8', `/Fe:${out}`, `/Fo:${path.dirname(out)}\\`, ...srcs], { stdio: 'inherit' });
+  execFileSync('cl', ['/nologo', '/std:c++17', '/O2', '/EHsc', '/utf-8', '/F8388608', `/Fe:${out}`, `/Fo:${path.dirname(out)}\\`, ...srcs], { stdio: 'inherit' });
 } else {
   execFileSync(process.env.CXX || 'c++', ['-std=c++17', '-O2', '-Wall', '-Wextra', '-o', out, ...srcs], { stdio: 'inherit' });
 }
