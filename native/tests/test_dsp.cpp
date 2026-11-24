@@ -346,7 +346,7 @@ TEST(bypass_crossfade_has_no_discontinuity) {
       p.enabled = false;
       e.setParams(p);
     }
-    e.process(in.data() + f * 2, out.data() + f * 2, 256);
+    e.process(in.data() + f * 2, out.data() + f * 2, std::min(256, frames - f));
   }
   double maxStep = 0.0;
   for (int i = 20000; i < 30000; ++i) maxStep = std::max(maxStep, (double)std::fabs(out[i * 2] - out[(i - 1) * 2]));
@@ -593,7 +593,7 @@ TEST(performance_realtime_factor) {
     std::vector<float> out(in.size());
     const auto t0 = std::chrono::steady_clock::now();
     for (int s = 0; s < seconds; ++s)
-      for (int f = 0; f < 48000; f += 256) e.process(in.data() + f * ch, out.data() + f * ch, 256);
+      for (int f = 0; f < 48000; f += 256) e.process(in.data() + f * ch, out.data() + f * ch, std::min(256, 48000 - f));
     const double elapsed = std::chrono::duration<double>(std::chrono::steady_clock::now() - t0).count();
     const double rtf = seconds / elapsed;
     std::printf("    %d ch, all effects: %.0fx real time (%.2f%% of one core)\n", ch, rtf, 100.0 / rtf);
