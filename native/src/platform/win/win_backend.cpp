@@ -16,16 +16,20 @@
 #ifndef NOMINMAX
 #define NOMINMAX
 #endif
+#ifndef WIN32_LEAN_AND_MEAN
 #define WIN32_LEAN_AND_MEAN
+#endif
 #include <windows.h>
+// initguid.h first so the GUIDs/PROPERTYKEYs used below are defined in this TU.
 #include <initguid.h>
-#include <audioclient.h>
-#include <avrt.h>
-#include <functiondiscoverykeys_devpkey.h>
-#include <ksmedia.h>
 #include <mmdeviceapi.h>
-#include <mmreg.h>
+#include <audioclient.h>
+#include <propkeydef.h>
 #include <propidl.h>
+#include <functiondiscoverykeys_devpkey.h>
+#include <mmreg.h>
+#include <ksmedia.h>
+#include <avrt.h>
 
 #include <algorithm>
 #include <atomic>
